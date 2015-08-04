@@ -69,7 +69,7 @@
 					</tr>
 					<c:forEach items="${ admins }" var="admin">
 						<tr>
-							<td>${ admin.issuer }</td>
+							<td><a href="${ admin.issuer }">${ admin.issuer }</a></td>
 							<td>${ admin.subject }</td>
 						</tr>
 					</c:forEach>
