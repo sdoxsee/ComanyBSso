@@ -4,10 +4,10 @@
   <artifactId>CompanyBSso</artifactId>
   <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>identity-provider</name>
+  <name>company-b-sso</name>
   <properties>
-    <java-version>1.7</java-version>
-    <mitreid-connect-version>1.2.0</mitreid-connect-version>
+    <java-version>1.8</java-version>
+    <mitreid-connect-version>1.2.1-SNAPSHOT</mitreid-connect-version>
 	<org.aspectj-version>1.6.9</org.aspectj-version>
 	<org.slf4j-version>1.7.7</org.slf4j-version>
 	<org.springframework-version>4.1.7.RELEASE</org.springframework-version>
