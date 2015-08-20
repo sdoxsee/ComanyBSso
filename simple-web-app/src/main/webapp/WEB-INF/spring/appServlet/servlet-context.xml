@@ -220,6 +220,7 @@
 						<value>address</value>
 						<value>profile</value>
 						<value>phone</value>
+						<value>offline_access</value>
 					</set>
 				</property>
 				<property name="tokenEndpointAuthMethod" value="SECRET_BASIC" />

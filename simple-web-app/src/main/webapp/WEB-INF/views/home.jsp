@@ -28,6 +28,7 @@
 				</p>
 			
 				<ul>
+					<li><a href="resource">Resource</a></li>
 					<li><a href="user">User</a>, requires the user to be logged in with the <code>ROLE_USER</code> Spring Security authority.</li>
 					<li><a href="admin">Admin</a>, requires the user to be logged in with the <code>ROLE_ADMIN</code> Spring Security authority. 
 					    See below for the currently configured list of admin accounts.</li>

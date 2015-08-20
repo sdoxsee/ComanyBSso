@@ -24,14 +24,20 @@ import javax.annotation.Resource;
 
 import org.mitre.openid.connect.client.OIDCAuthenticationFilter;
 import org.mitre.openid.connect.client.SubjectIssuerGrantedAuthority;
+import org.mitre.openid.connect.model.OIDCAuthenticationToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * Handles requests for the application home page.
@@ -88,6 +94,22 @@ public class HomeController {
 	@RequestMapping("/login")
 	public String login(Principal p) {
 		return "login";
+	}
+	
+	@RequestMapping("/resource")
+	public String resource(Model model, Principal p) {
+		OIDCAuthenticationToken authentication = (OIDCAuthenticationToken)p;
+
+		RestTemplate restTemplate = new RestTemplate();
+		HttpHeaders headers = new HttpHeaders();
+		headers.set("Authorization", "Bearer " + authentication.getAccessTokenValue());
+		HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
+
+		ResponseEntity<String> responseEntity = restTemplate.exchange("http://localhost:9000/resource/", HttpMethod.GET, entity, String.class);
+		
+		model.addAttribute("resource", responseEntity.getBody());
+		
+		return "resource";
 	}
 
 }
