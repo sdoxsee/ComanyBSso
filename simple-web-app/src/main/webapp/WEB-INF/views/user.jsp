@@ -46,6 +46,10 @@
 					<tbody>
 					</tbody>				
 				</table>
+				
+                <h3>Access Token</h3>
+                <security:authentication property="accessTokenValue" var="accessToken"/>
+				<p>${ accessToken }</p>
 
 				<h3>User Info</h3>
 				
