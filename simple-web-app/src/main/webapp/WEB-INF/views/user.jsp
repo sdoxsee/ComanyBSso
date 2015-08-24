@@ -2,8 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="o" tagdir="/WEB-INF/tags"%>
-<o:header title="User"/>
-<o:topbar pageName="User"/>
+<o:header title="Resource"/>
+<o:topbar pageName="Resource"/>
 <div class="container-fluid main">
 	<div class="row-fluid">
 		<div class="span10 offset1">
