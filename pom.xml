@@ -12,6 +12,7 @@
 	<org.slf4j-version>1.7.7</org.slf4j-version>
 	<org.springframework-version>4.1.7.RELEASE</org.springframework-version>
 	<spring.security.version>3.2.7.RELEASE</spring.security.version>
+	<postgresql.version>9.3-1102-jdbc41</postgresql.version>
   </properties>
 
   <modules>

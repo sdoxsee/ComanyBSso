@@ -54,7 +54,10 @@ public class ApiAuthenticationManager implements RemoteAuthenticationManager {
     						configBean.getBaseUrl() + "users/authenticate.xml",
     						request, NomadResponse.class);
     		
-    		return new User(username, "", Arrays.asList(new SimpleGrantedAuthority("ROLE_USER")));
+    		return new User(username, "", Arrays.asList(
+//    				new SimpleGrantedAuthority("ROLE_ADMIN"),
+    				new SimpleGrantedAuthority("ROLE_USER")
+    				));
         } catch (RestClientException e) {
         	throw new UsernameNotFoundException("User '" + username + "' not found.", e);
         }
