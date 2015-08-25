@@ -17,6 +17,7 @@ import org.springframework.web.client.RestTemplate;
 
 import ca.bbd.config.NomadWsConfigBean;
 import ca.bbd.security.NomadResponse;
+import ca.bbd.security.NomadResponseToDefaultUserInfoMapper;
 
 /**
  * Implementation of the UserInfoService
@@ -29,7 +30,7 @@ public class DefaultUserInfoService implements UserInfoService {
 
 	@Autowired
 	private NomadWsConfigBean config;
-	
+
 	@Autowired
 	private ClientDetailsEntityService clientService;
 
@@ -38,39 +39,16 @@ public class DefaultUserInfoService implements UserInfoService {
 
 	@Override
 	public UserInfo getByUsername(String username) {
-		
-//        RestTemplate restTemplate = new RestTemplate();
-//        
-//        HttpHeaders headers = new HttpHeaders();
-//        headers.set(config.getHeader(),
-//        		config.getToken());
-//        
-//        MultiValueMap<String, String> map = new LinkedMultiValueMap<String, String>();
-//        @SuppressWarnings("rawtypes")
-//        HttpEntity<MultiValueMap> request = new HttpEntity<MultiValueMap>(map, headers);
-//        
-//        NomadResponse nomadResponse = restTemplate
-//				.postForObject(
-//						config.getBaseUrl() + "users/authenticate.xml",
-//						request, NomadResponse.class);
-		
-		DefaultUserInfo defaultUserInfo = new DefaultUserInfo();
-		defaultUserInfo.setEmail(username);
-		defaultUserInfo.setPreferredUsername(username);
-		defaultUserInfo.setName("Foo fighter");
-		defaultUserInfo.setGivenName("Mark");
-		defaultUserInfo.setFamilyName("Bajus");
-		defaultUserInfo.setSub("47FA532F-A5B6-E311-8E1C-001F29DDFF28");
-		return defaultUserInfo;
-//        return null;
-//		
-//		return userInfoRepository.getByUsername(username);
+
+		return getByEmailAddress(username);
+
 	}
 
 	@Override
 	public UserInfo getByUsernameAndClientId(String username, String clientId) {
 
-		ClientDetailsEntity client = clientService.loadClientByClientId(clientId);
+		ClientDetailsEntity client = clientService
+				.loadClientByClientId(clientId);
 
 		UserInfo userInfo = getByUsername(username);
 
@@ -79,7 +57,8 @@ public class DefaultUserInfoService implements UserInfoService {
 		}
 
 		if (SubjectType.PAIRWISE.equals(client.getSubjectType())) {
-			String pairwiseSub = pairwiseIdentifierService.getIdentifier(userInfo, client);
+			String pairwiseSub = pairwiseIdentifierService.getIdentifier(
+					userInfo, client);
 			userInfo.setSub(pairwiseSub);
 		}
 
@@ -89,16 +68,35 @@ public class DefaultUserInfoService implements UserInfoService {
 
 	@Override
 	public UserInfo getByEmailAddress(String email) {
-//		return userInfoRepository.getByEmailAddress(email);
-		DefaultUserInfo defaultUserInfo = new DefaultUserInfo();
-		defaultUserInfo.setEmail(email);
-		defaultUserInfo.setPreferredUsername(email);
-		defaultUserInfo.setName("Foo fighter");
-		defaultUserInfo.setGivenName("Mark");
-		defaultUserInfo.setFamilyName("Bajus");
-		defaultUserInfo.setSub("47FA532F-A5B6-E311-8E1C-001F29DDFF28");
-		return defaultUserInfo;
-//		return null;
+		RestTemplate restTemplate = new RestTemplate();
+
+		HttpHeaders headers = new HttpHeaders();
+		headers.set(config.getHeader(), config.getToken());
+
+		MultiValueMap<String, String> map = new LinkedMultiValueMap<String, String>();
+		@SuppressWarnings("rawtypes")
+		HttpEntity<MultiValueMap> request = new HttpEntity<MultiValueMap>(map,
+				headers);
+
+		NomadResponse nomadResponse = restTemplate.postForObject(
+				config.getBaseUrl() + "users/" + email, request,
+				NomadResponse.class);
+		
+		NomadResponseToDefaultUserInfoMapper mapper = new NomadResponseToDefaultUserInfoMapper();
+		
+		UserInfo userInfo = mapper.mapToDefaultUserInfo(nomadResponse);
+		if (userInfo == null) {
+			userInfo = new DefaultUserInfo();
+			userInfo.setEmail(email);
+			userInfo.setPreferredUsername(email);
+			userInfo.setName("Foo fighter");
+			userInfo.setGivenName("Mark");
+			userInfo.setFamilyName("Bajus");
+			userInfo.setSub("47FA532F-A5B6-E311-8E1C-001F29DDFF28");
+		}
+
+		return userInfo;
+
 	}
 
 }

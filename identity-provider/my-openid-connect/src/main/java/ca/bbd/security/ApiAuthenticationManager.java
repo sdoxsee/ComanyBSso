@@ -62,4 +62,13 @@ public class ApiAuthenticationManager implements RemoteAuthenticationManager {
         	throw new UsernameNotFoundException("User '" + username + "' not found.", e);
         }
     }
+
+	public NomadWsConfigBean getConfigBean() {
+		return configBean;
+	}
+
+	public void setConfigBean(NomadWsConfigBean configBean) {
+		this.configBean = configBean;
+	}
+    
 }
