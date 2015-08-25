@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nomadResponse>
+	<responseMessage>Success</responseMessage>
+	<responseNomadUser>
+		<id>47FA532F-A5B6-E311-8E1C-001F29DDFF28</id>
+		<nameFirst>Mark</nameFirst>
+		<nameInitial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:nil="true" />
+		<nameLast>Bajus</nameLast>
+		<accessAllReportsToAdvisorGroups>false
+		</accessAllReportsToAdvisorGroups>
+		<accountExpDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:nil="true" />
+		<emailAddress>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<contactInfo>mark.bajus@bfpartners.ca</contactInfo>
+			<contactType>Email</contactType>
+		</emailAddress>
+		<employeeId>5330936</employeeId>
+		<groupId>0</groupId>
+		<isActive>true</isActive>
+		<jobTitle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:nil="true" />
+		<lastLoginDate>2015-08-24T00:00:00-07:00</lastLoginDate>
+		<nomadUserGroupList>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>10416</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Ion Design Inc.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>11164</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Atlas Painting &amp; Restorations Ltd.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>26670</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Drs. Kerry Creedon and Peter Queh</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>469039</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Tandem Accounting</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>471547</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Loren, Nancke &amp; Company Inc.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>2926105</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Smallbox Software Inc.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>3669770</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Bajus Financial Partners Ltd.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>3669770</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Bajus Financial Partners Ltd.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>3761478</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Language Studies International (Canada) Inc.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>3812686</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>CIMS Industries Inc.</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>3815808</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Avenir School Society</groupName>
+			</groupListEntry>
+			<groupListEntry>
+				<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<activeStatus>true</activeStatus>
+				<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupId>3816412</groupId>
+				<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<portal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<billingDivision xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:nil="true" />
+				<groupName>Normac Appraisals Ltd.</groupName>
+			</groupListEntry>
+		</nomadUserGroupList>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<employeeId>5330936</employeeId>
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>members</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId>91294</payeeId>
+			<portal>mga</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>10416</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>11164</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>26670</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>469039</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>471547</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>2926105</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>3669770</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>admins</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>3669770</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>3761478</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>3812686</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>3815808</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<nomadUserSummitEntities>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<activeStatus>true</activeStatus>
+			<agentId>90524</agentId>
+			<employeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<groupId>3816412</groupId>
+			<nomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<payeeId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<portal>advisors</portal>
+			<reportsToNomadUserId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</nomadUserSummitEntities>
+		<password>NomadUAT1!</password>
+		<passwordExpDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:nil="true" />
+		<permissions>
+			<id>C180B38A-241F-4603-B575-293AEA46CF82</id>
+			<permissionCode>507</permissionCode>
+			<description>Grant Access to Manage Company Logos</description>
+			<name>Nomad - Manage Company Logo</name>
+		</permissions>
+		<permissions>
+			<id>EBA63844-5994-423A-955C-61E73648FB76</id>
+			<permissionCode>501</permissionCode>
+			<description>Grant Access to the Plan Admin Portal</description>
+			<name>Nomad - Access Plan Administrator Portal</name>
+		</permissions>
+		<permissions>
+			<id>475995C1-2C39-40A6-81F7-AD260302F7A5</id>
+			<permissionCode>504</permissionCode>
+			<description>Grant Access to View Invoicing Reports</description>
+			<name>Nomad - View Reports - Invoicing</name>
+		</permissions>
+		<permissions>
+			<id>36DF72F3-1FD1-4304-BB60-B41122A063D2</id>
+			<permissionCode>503</permissionCode>
+			<description>Grant Access to View Reports</description>
+			<name>Nomad - View Reports</name>
+		</permissions>
+		<permissions>
+			<id>762C7F8E-9C46-4A74-BEB6-BC3F4BF54508</id>
+			<permissionCode>505</permissionCode>
+			<description>Grant Access to Manage Employees (Admin Portal)
+			</description>
+			<name>Nomad - Manage Employees</name>
+		</permissions>
+		<permissions>
+			<id>88A0DA92-9694-489F-9661-DDA6EF8EA9F2</id>
+			<permissionCode>500</permissionCode>
+			<description>Grant Access to Manage Admin Assistants</description>
+			<name>Nomad - Manage Admin Assistants</name>
+		</permissions>
+		<permissions>
+			<id>1AED9C10-A8B7-4A08-ABBA-E11BC486246A</id>
+			<permissionCode>518</permissionCode>
+			<description>Grant Access to Send Registration email to Employees
+			</description>
+			<name>Nomad - Send Employee Registration</name>
+		</permissions>
+		<permissions>
+			<id>46F3386B-DAD5-4B14-83A0-84CF2063F74F</id>
+			<permissionCode>509</permissionCode>
+			<description>Grant Access to Plan Members</description>
+			<name>Nomad - Access Group Plan Members</name>
+		</permissions>
+		<permissions>
+			<id>80FDB534-EBEB-4C12-BFD3-85B63A15D15C</id>
+			<permissionCode>506</permissionCode>
+			<description>Grant Access to Manage Advisor Headshot</description>
+			<name>Nomad - Manage Advisor Headshot</name>
+		</permissions>
+		<permissions>
+			<id>8FE7744A-30CB-47F7-AF0B-B42376EEC710</id>
+			<permissionCode>512</permissionCode>
+			<description>Grant Access to Manage Advisor Assistants</description>
+			<name>Nomad - Manage Advisor Assistants</name>
+		</permissions>
+		<permissions>
+			<id>36C09032-89E3-44FA-8420-ECB84F770811</id>
+			<permissionCode>502</permissionCode>
+			<description>Grant Access to the Plan Advisor Portal</description>
+			<name>Nomad - Access Plan Advisor Portal</name>
+		</permissions>
+		<permissions>
+			<id>061C0C16-25CF-49E1-A757-F71E4E505290</id>
+			<permissionCode>508</permissionCode>
+			<description>Grant Access to My Clients</description>
+			<name>Nomad - Access Groups</name>
+		</permissions>
+		<permissions>
+			<id>3044F411-90EF-4636-98F6-6726E24A0724</id>
+			<permissionCode>517</permissionCode>
+			<description>Grant Access to the Plan Member Portal</description>
+			<name>Nomad - Access Plan Member Portal</name>
+		</permissions>
+		<permissions>
+			<id>9EE20A9A-C14E-474C-BCE0-9BE52C46DDDF</id>
+			<permissionCode>511</permissionCode>
+			<description>Grant Access to Commissions/T4As</description>
+			<name>Nomad - Access Commissions</name>
+		</permissions>
+		<permissions>
+			<id>8C7C410C-A205-4DCE-9866-A244ED211907</id>
+			<permissionCode>515</permissionCode>
+			<description>Grant Access to Manage MGA Assistants</description>
+			<name>Nomad - Managa MGA Assistants</name>
+		</permissions>
+		<permissions>
+			<id>92BEEA91-C67F-41A2-BF09-AC5FDC800E84</id>
+			<permissionCode>514</permissionCode>
+			<description>Grant Access to the MGA Portal</description>
+			<name>Nomad - Access MGA Portal</name>
+		</permissions>
+		<phoneNumbers>
+			<id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+			<contactInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<contactType>Phone</contactType>
+			<areaCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<extension xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<number xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+		</phoneNumbers>
+		<roles>
+			<id>F7EA17EC-4FE6-E211-883D-001F29DDFF28</id>
+			<component>nomad</component>
+			<description>The Group Plan Administrator</description>
+			<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<level>642</level>
+			<name>Plan Administrator</name>
+			<permissions>
+				<id>C180B38A-241F-4603-B575-293AEA46CF82</id>
+				<permissionCode>507</permissionCode>
+				<description>Grant Access to Manage Company Logos</description>
+				<name>Nomad - Manage Company Logo</name>
+			</permissions>
+			<permissions>
+				<id>EBA63844-5994-423A-955C-61E73648FB76</id>
+				<permissionCode>501</permissionCode>
+				<description>Grant Access to the Plan Admin Portal</description>
+				<name>Nomad - Access Plan Administrator Portal</name>
+			</permissions>
+			<permissions>
+				<id>475995C1-2C39-40A6-81F7-AD260302F7A5</id>
+				<permissionCode>504</permissionCode>
+				<description>Grant Access to View Invoicing Reports</description>
+				<name>Nomad - View Reports - Invoicing</name>
+			</permissions>
+			<permissions>
+				<id>36DF72F3-1FD1-4304-BB60-B41122A063D2</id>
+				<permissionCode>503</permissionCode>
+				<description>Grant Access to View Reports</description>
+				<name>Nomad - View Reports</name>
+			</permissions>
+			<permissions>
+				<id>762C7F8E-9C46-4A74-BEB6-BC3F4BF54508</id>
+				<permissionCode>505</permissionCode>
+				<description>Grant Access to Manage Employees (Admin Portal)
+				</description>
+				<name>Nomad - Manage Employees</name>
+			</permissions>
+			<permissions>
+				<id>88A0DA92-9694-489F-9661-DDA6EF8EA9F2</id>
+				<permissionCode>500</permissionCode>
+				<description>Grant Access to Manage Admin Assistants</description>
+				<name>Nomad - Manage Admin Assistants</name>
+			</permissions>
+			<permissions>
+				<id>1AED9C10-A8B7-4A08-ABBA-E11BC486246A</id>
+				<permissionCode>518</permissionCode>
+				<description>Grant Access to Send Registration email to Employees
+				</description>
+				<name>Nomad - Send Employee Registration</name>
+			</permissions>
+			<activeStatus>true</activeStatus>
+		</roles>
+		<roles>
+			<id>FAEA17EC-4FE6-E211-883D-001F29DDFF28</id>
+			<component>nomad</component>
+			<description>The Group Plan Advisor</description>
+			<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<level>643</level>
+			<name>Plan Advisor</name>
+			<permissions>
+				<id>46F3386B-DAD5-4B14-83A0-84CF2063F74F</id>
+				<permissionCode>509</permissionCode>
+				<description>Grant Access to Plan Members</description>
+				<name>Nomad - Access Group Plan Members</name>
+			</permissions>
+			<permissions>
+				<id>80FDB534-EBEB-4C12-BFD3-85B63A15D15C</id>
+				<permissionCode>506</permissionCode>
+				<description>Grant Access to Manage Advisor Headshot</description>
+				<name>Nomad - Manage Advisor Headshot</name>
+			</permissions>
+			<permissions>
+				<id>475995C1-2C39-40A6-81F7-AD260302F7A5</id>
+				<permissionCode>504</permissionCode>
+				<description>Grant Access to View Invoicing Reports</description>
+				<name>Nomad - View Reports - Invoicing</name>
+			</permissions>
+			<permissions>
+				<id>36DF72F3-1FD1-4304-BB60-B41122A063D2</id>
+				<permissionCode>503</permissionCode>
+				<description>Grant Access to View Reports</description>
+				<name>Nomad - View Reports</name>
+			</permissions>
+			<permissions>
+				<id>8FE7744A-30CB-47F7-AF0B-B42376EEC710</id>
+				<permissionCode>512</permissionCode>
+				<description>Grant Access to Manage Advisor Assistants</description>
+				<name>Nomad - Manage Advisor Assistants</name>
+			</permissions>
+			<permissions>
+				<id>36C09032-89E3-44FA-8420-ECB84F770811</id>
+				<permissionCode>502</permissionCode>
+				<description>Grant Access to the Plan Advisor Portal</description>
+				<name>Nomad - Access Plan Advisor Portal</name>
+			</permissions>
+			<permissions>
+				<id>061C0C16-25CF-49E1-A757-F71E4E505290</id>
+				<permissionCode>508</permissionCode>
+				<description>Grant Access to My Clients</description>
+				<name>Nomad - Access Groups</name>
+			</permissions>
+			<activeStatus>true</activeStatus>
+		</roles>
+		<roles>
+			<id>F8EA17EC-4FE6-E211-883D-001F29DDFF28</id>
+			<component>nomad</component>
+			<description>The Group Plan Member</description>
+			<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<level>645</level>
+			<name>Plan Member</name>
+			<permissions>
+				<id>3044F411-90EF-4636-98F6-6726E24A0724</id>
+				<permissionCode>517</permissionCode>
+				<description>Grant Access to the Plan Member Portal</description>
+				<name>Nomad - Access Plan Member Portal</name>
+			</permissions>
+			<activeStatus>true</activeStatus>
+		</roles>
+		<roles>
+			<id>C68D3A4E-C421-E411-B988-A0D3C1040EF3</id>
+			<component>nomad</component>
+			<description>Managing General Agent</description>
+			<groupId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:nil="true" />
+			<level>646</level>
+			<name>MGA</name>
+			<permissions>
+				<id>9EE20A9A-C14E-474C-BCE0-9BE52C46DDDF</id>
+				<permissionCode>511</permissionCode>
+				<description>Grant Access to Commissions/T4As</description>
+				<name>Nomad - Access Commissions</name>
+			</permissions>
+			<permissions>
+				<id>8C7C410C-A205-4DCE-9866-A244ED211907</id>
+				<permissionCode>515</permissionCode>
+				<description>Grant Access to Manage MGA Assistants</description>
+				<name>Nomad - Managa MGA Assistants</name>
+			</permissions>
+			<permissions>
+				<id>92BEEA91-C67F-41A2-BF09-AC5FDC800E84</id>
+				<permissionCode>514</permissionCode>
+				<description>Grant Access to the MGA Portal</description>
+				<name>Nomad - Access MGA Portal</name>
+			</permissions>
+			<activeStatus>true</activeStatus>
+		</roles>
+		<salutationShortCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:nil="true" />
+		<salutation></salutation>
+		<securityAnswer>aero</securityAnswer>
+		<securityQuestionId>C5F643AC-5370-4F4A-8C20-CC35376E36FD
+		</securityQuestionId>
+	</responseNomadUser>
+</nomadResponse>
