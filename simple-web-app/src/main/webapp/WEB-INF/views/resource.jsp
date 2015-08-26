@@ -2,8 +2,8 @@
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ taglib prefix="o" tagdir="/WEB-INF/tags"%>
 <%@ page session="false" %>
-<o:header title="Home"/>
-<o:topbar pageName="Home"/>
+<o:header title="Resource"/>
+<o:topbar pageName="Resource"/>
 <div class="container-fluid main">
 	<div class="row-fluid">
 		<div class="span10 offset1">

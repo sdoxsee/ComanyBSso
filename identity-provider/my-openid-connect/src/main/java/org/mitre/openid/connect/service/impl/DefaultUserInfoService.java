@@ -1,18 +1,22 @@
 package org.mitre.openid.connect.service.impl;
 
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
+
 import org.mitre.oauth2.model.ClientDetailsEntity;
 import org.mitre.oauth2.model.ClientDetailsEntity.SubjectType;
 import org.mitre.oauth2.service.ClientDetailsEntityService;
-import org.mitre.openid.connect.model.DefaultUserInfo;
 import org.mitre.openid.connect.model.UserInfo;
 import org.mitre.openid.connect.service.PairwiseIdentiferService;
 import org.mitre.openid.connect.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import org.springframework.util.LinkedMultiValueMap;
-import org.springframework.util.MultiValueMap;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
 import ca.bbd.config.NomadWsConfigBean;
@@ -66,37 +70,55 @@ public class DefaultUserInfoService implements UserInfoService {
 
 	}
 
+	public static boolean isValidEmailAddress(String email) {
+		boolean result = true;
+		try {
+			InternetAddress emailAddr = new InternetAddress(email);
+			emailAddr.validate();
+		} catch (AddressException ex) {
+			result = false;
+		}
+		return result;
+	}
+
 	@Override
 	public UserInfo getByEmailAddress(String email) {
-		RestTemplate restTemplate = new RestTemplate();
 
-		HttpHeaders headers = new HttpHeaders();
-		headers.set(config.getHeader(), config.getToken());
+		UserInfo userInfo = null;
 
-		MultiValueMap<String, String> map = new LinkedMultiValueMap<String, String>();
-		@SuppressWarnings("rawtypes")
-		HttpEntity<MultiValueMap> request = new HttpEntity<MultiValueMap>(map,
-				headers);
+		if (isValidEmailAddress(email)) {
+			try {
+				RestTemplate restTemplate = new RestTemplate();
 
-		NomadResponse nomadResponse = restTemplate.postForObject(
-				config.getBaseUrl() + "users/" + email, request,
-				NomadResponse.class);
-		
-		NomadResponseToDefaultUserInfoMapper mapper = new NomadResponseToDefaultUserInfoMapper();
-		
-		UserInfo userInfo = mapper.mapToDefaultUserInfo(nomadResponse);
-		if (userInfo == null) {
-			userInfo = new DefaultUserInfo();
-			userInfo.setEmail(email);
-			userInfo.setPreferredUsername(email);
-			userInfo.setName("Foo fighter");
-			userInfo.setGivenName("Mark");
-			userInfo.setFamilyName("Bajus");
-			userInfo.setSub("47FA532F-A5B6-E311-8E1C-001F29DDFF28");
+				HttpHeaders headers = new HttpHeaders();
+				headers.set(config.getHeader(), config.getToken());
+
+				HttpEntity<String> entity = new HttpEntity<String>(
+						"parameters", headers);
+
+				ResponseEntity<NomadResponse> nomadResponse = restTemplate
+						.exchange(config.getBaseUrl() + "users/" + email,
+								HttpMethod.GET, entity, NomadResponse.class);
+
+				NomadResponseToDefaultUserInfoMapper mapper = new NomadResponseToDefaultUserInfoMapper();
+
+				userInfo = mapper.mapToDefaultUserInfo(nomadResponse.getBody());
+
+			} catch (RestClientException e) {
+				throw new UsernameNotFoundException("User with email '" + email
+						+ "' not found.", e);
+			}
 		}
-
 		return userInfo;
 
+	}
+
+	public NomadWsConfigBean getConfig() {
+		return config;
+	}
+
+	public void setConfig(NomadWsConfigBean config) {
+		this.config = config;
 	}
 
 }
