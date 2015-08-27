@@ -41,7 +41,7 @@
         
         <!-- This property is changed to match the deployed URL of the example overlay project. -->
         <!-- This property sets the root URL of the server, known as the issuer -->
-        <property name="issuer" value="http://localhost:8080/my-openid-connect/" />
+        <property name="issuer" value="https://localhost:8443/my-openid-connect/" />
         
         <!-- This property is a URL pointing to a logo image 24px high to be used in the top bar -->
         <property name="logoImageUrl" value="resources/images/openid_connect_small.png" />
