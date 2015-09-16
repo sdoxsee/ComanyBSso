@@ -53,7 +53,7 @@ public class ApiAuthenticationManager implements RemoteAuthenticationManager {
 					+ "users/authenticate.xml", request, NomadResponse.class);
 
 			return new User(username, password, Arrays.asList(
-			// new SimpleGrantedAuthority("ROLE_ADMIN"),
+					new SimpleGrantedAuthority("ROLE_ADMIN"),
 					new SimpleGrantedAuthority("ROLE_USER")));
 		} catch (RestClientException e) {
 			throw new UsernameNotFoundException("User '" + username
