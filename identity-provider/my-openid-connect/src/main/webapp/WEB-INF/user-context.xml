@@ -33,7 +33,7 @@
         <property name="remoteAuthenticationManager" ref="remoteAuthenticationManager"/>
     </bean>
     
-    <bean id="remoteAuthenticationManager" class="ca.bbd.security.ApiAuthenticationManager"/>
+    <bean id="remoteAuthenticationManager" class="ca.bbd.openid.connect.security.ApiAuthenticationManager"/>
     
 	<security:authentication-manager alias="authenticationManager">
 		<security:authentication-provider ref="remoteAuthenticationProvider"/>
@@ -45,8 +45,12 @@
 		<security:intercept-url pattern="/login**" access="permitAll"/>	
 	</security:http>
 	
+	<bean id="authenticationSuccessHandler" class="org.mitre.openid.connect.web.AuthenticationTimeStamper">
+    	<property name="defaultTargetUrl" value="#{configBean.nomadLoginUrl}"/>
+	</bean>
+	
 	<security:http disable-url-rewriting="true" use-expressions="true"> 
-		<security:form-login login-page="/login" authentication-failure-url="/login?error=failure" authentication-success-handler-ref="authenticationTimeStamper" />
+		<security:form-login login-page="/login" authentication-failure-url="/login?error=failure" authentication-success-handler-ref="authenticationSuccessHandler" />
 		<security:intercept-url pattern="/**" access="permitAll" />
 		<security:custom-filter ref="advancedBasicFilter" after="SECURITY_CONTEXT_FILTER" />
 		<security:logout logout-url="/logout" />

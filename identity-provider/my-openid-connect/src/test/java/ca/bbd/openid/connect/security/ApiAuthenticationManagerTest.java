@@ -1,4 +1,4 @@
-package ca.bbd.security;
+package ca.bbd.openid.connect.security;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,6 +6,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
 
 import org.junit.Test;
+
+import ca.bbd.openid.connect.security.NomadResponse;
 
 
 public class ApiAuthenticationManagerTest {

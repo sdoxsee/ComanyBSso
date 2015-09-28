@@ -1,4 +1,4 @@
-package ca.bbd.security;
+package ca.bbd.openid.connect.security;
 
 import org.mitre.openid.connect.model.DefaultUserInfo;
 import org.mitre.openid.connect.model.UserInfo;

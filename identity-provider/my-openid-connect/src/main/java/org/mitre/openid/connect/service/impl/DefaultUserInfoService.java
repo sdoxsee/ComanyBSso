@@ -6,6 +6,7 @@ import javax.mail.internet.InternetAddress;
 import org.mitre.oauth2.model.ClientDetailsEntity;
 import org.mitre.oauth2.model.ClientDetailsEntity.SubjectType;
 import org.mitre.oauth2.service.ClientDetailsEntityService;
+import org.mitre.openid.connect.config.ConfigurationPropertiesBean;
 import org.mitre.openid.connect.model.UserInfo;
 import org.mitre.openid.connect.service.PairwiseIdentiferService;
 import org.mitre.openid.connect.service.UserInfoService;
@@ -19,9 +20,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
-import ca.bbd.config.NomadWsConfigBean;
-import ca.bbd.security.NomadResponse;
-import ca.bbd.security.NomadResponseToDefaultUserInfoMapper;
+import ca.bbd.openid.connect.security.NomadResponse;
+import ca.bbd.openid.connect.security.NomadResponseToDefaultUserInfoMapper;
 
 /**
  * Implementation of the UserInfoService
@@ -33,7 +33,7 @@ import ca.bbd.security.NomadResponseToDefaultUserInfoMapper;
 public class DefaultUserInfoService implements UserInfoService {
 
 	@Autowired
-	private NomadWsConfigBean config;
+	private ConfigurationPropertiesBean config;
 
 	@Autowired
 	private ClientDetailsEntityService clientService;
@@ -91,13 +91,13 @@ public class DefaultUserInfoService implements UserInfoService {
 				RestTemplate restTemplate = new RestTemplate();
 
 				HttpHeaders headers = new HttpHeaders();
-				headers.set(config.getHeader(), config.getToken());
+				headers.set(config.getNomadWsHeader(), config.getNomadWsToken());
 
 				HttpEntity<String> entity = new HttpEntity<String>(
 						"parameters", headers);
 
 				ResponseEntity<NomadResponse> nomadResponse = restTemplate
-						.exchange(config.getBaseUrl() + "users/" + email,
+						.exchange(config.getNomadWsBaseUrl() + "users/" + email,
 								HttpMethod.GET, entity, NomadResponse.class);
 
 				NomadResponseToDefaultUserInfoMapper mapper = new NomadResponseToDefaultUserInfoMapper();
@@ -113,11 +113,11 @@ public class DefaultUserInfoService implements UserInfoService {
 
 	}
 
-	public NomadWsConfigBean getConfig() {
+	public ConfigurationPropertiesBean getConfig() {
 		return config;
 	}
 
-	public void setConfig(NomadWsConfigBean config) {
+	public void setConfig(ConfigurationPropertiesBean config) {
 		this.config = config;
 	}
 

@@ -1,4 +1,4 @@
-package ca.bbd.security;
+package ca.bbd.openid.connect.security;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlValue;

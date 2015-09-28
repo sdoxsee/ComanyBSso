@@ -3,4 +3,4 @@
 .settings/
 target/
 /bin/
-identity-provider/my-openid-connect/src/main/resources/confOverride.properties
+identity-provider/my-openid-connect/src/main/resources/configOverride.properties

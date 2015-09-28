@@ -1,0 +1,167 @@
+/*
+ * Overlay this file to provide local style overrides.
+ */
+ 
+
+body {padding-top: 60px;}
+ 
+ 
+/***********************************************************************************************************************
+ Dom layout CSS
+************************************************************************************************************************/
+/* Min Height */
+@media (min-width: 979px) {
+  #container{
+    min-height: 500px;
+    height:auto !important;
+    height: 500px;
+  }
+}
+
+/* Portal - Sub Navigation */
+@media (max-width: 1199px) {
+  .sub-navigation{
+    margin-bottom: 5px;
+  }
+}
+
+.sub-navigation .brand { font-weight: 400;}
+.sub-navigation ul.nav li a { font-weight: bold;}
+.sub-navigation ul.dropdown-menu li a { font-weight: normal;}
+
+/* Forms */
+form .required span.required{
+  color: #E9322D;
+  margin-right: 3px;
+}
+
+/* Login Form */
+.login-form, .forgot-password-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 260px;
+}
+
+/* To be used to hide labels from forms but still maintain accessibility. */
+.ui-hide-label label,
+.ui-hidden-accessible { position: absolute !important; left: -9999px; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+
+footer  {margin-top:25px; text-align: center;}
+footer .branding {
+  border-top: 1px solid #DDDDDD;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  background-color: #EEEEEE;
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 4px, rgba(255,255,255,.5) 4px, rgba(255,255,255,.5) 8px);
+}
+footer .branding .logo img {
+  max-height: 100px;
+}
+footer .branding .title {
+  background: image-url("footer_branding_title.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #DDD;
+  font-size: 12px;
+  font-weight: bold;
+  height: 44px;
+  left: 50%;
+  letter-spacing: 0.7px;
+  line-height: 40px;
+  margin-left: -80px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  top: -11px;
+  width: 161px;
+}
+footer .navbar {margin: 0px;}
+footer .navbar .navbar-inner {
+  border-radius: 0px;border-left-width: 0px;border-right-width: 0px;
+}
+footer .navbar .navbar-inner .navbar-text {
+  line-height: 30px;
+}
+footer .navbar .navbar-inner .navbar-text a, a:hover, a:focus, a:active {
+	color: inherit;
+}
+
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+.footer-links > ul > li:after {
+    content: "·";
+    margin-left: 8px;
+}
+.footer-links > ul > li.no-divider:after {
+  content:none;
+}
+.footer-links > ul > li + li {
+    margin-left: 8px;
+}
+.footer-links > ul {
+  margin: 0;
+}
+.footer-links > ul > li {
+    display: inline-block;
+    padding: 0;
+    white-space: nowrap;
+}
+/* .footer-links > ul > li a{
+    color: #777777;
+} */
+
+@media (min-width: 768px) {
+  #privacy-policy-modal, #legal-notice-modal, #security-notice-modal {
+    width: 80%;
+    margin-left: -40%;
+  }
+}
+
+#push,#footer {
+/* 	min-height: 60px; */
+	min-height: 0px;
+}
+
+/***********************************************************************************************************************/
+/*********************************** Nomad: Overrides *****************************************************/
+/***********************************************************************************************************************/
+
+.btn {border-width:2px;}
+.btn-primary {
+  background-color: #0089c4;
+  background-image: none;
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  background-color: #007bb0;
+/*   background-color: darken(@BBD_BRANDING_BLUE, 4%); */
+  color: #ffffff;
+}
+
+.navbar #userButton {
+    background-color: #0089c4;
+    background-image: linear-gradient(to bottom, #0089c4, #007bb0);
+}
+.navbar #userButton, .navbar #loginButton {
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.125) inset;
+    font-size: 0.9em;
+}
+.navbar #userButton:focus, .navbar #userButton:hover {
+    background-color: #007bb0;
+}
+.navbar #userButton:focus, .navbar #userButton:hover, .navbar #loginButton:focus, .navbar #loginButton:hover {
+    color: #ffffff;
+    background-position: 0 -15px;
+    text-decoration: none;
+    transition: background-position 0.1s linear 0s;
+}

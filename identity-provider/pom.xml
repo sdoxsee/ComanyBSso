@@ -4,7 +4,7 @@
 	<artifactId>identity-provider</artifactId>
 	<parent>
 		<artifactId>CompanyBSso</artifactId>
-		<groupId>ca.bbd</groupId>
+		<groupId>ca.bbd.openid.connect</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>

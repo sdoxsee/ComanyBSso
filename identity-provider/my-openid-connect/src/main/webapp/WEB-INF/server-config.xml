@@ -28,15 +28,9 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
-        
+    
     <context:property-override ignore-resource-not-found="true" location="${spring.config.location}"/>
     
-    <bean id="nomadWsConfigBean" class="ca.bbd.config.NomadWsConfigBean">
-        <property name="header" value="XYZ" />
-        <property name="token" value="XYZ" />
-        <property name="baseUrl" value="https://wanderer.bbd.ca:8443/nomad/alpha/nomad-webservice/" />
-    </bean>
-
     <bean id="configBean" class="org.mitre.openid.connect.config.ConfigurationPropertiesBean">
         
         <!-- This property is changed to match the deployed URL of the example overlay project. -->
@@ -47,7 +41,7 @@
         <property name="logoImageUrl" value="resources/images/openid_connect_small.png" />
         
         <!-- This property sets the display name of the server, displayed in the topbar and page title -->
-        <property name="topbarTitle" value="BBD OpenID Connect Server" />
+        <property name="topbarTitle" value="Nomad" />
         
         <!-- This property sets the lifetime of registration access tokens, in seconds. Leave it unset (null) for no rotation. -->
         <!-- <property name="regTokenLifeTime" value="172800" /> -->
@@ -58,6 +52,10 @@
         <!-- This property sets the locale for server text -->
         <!-- <property name="locale" value="sv" /> -->
 
+        <property name="nomadWsHeader" value="XYZ" />
+        <property name="nomadWsToken" value="XYZ" />
+        <property name="nomadWsBaseUrl" value="https://wanderer.bbd.ca:9443/nomad/alpha/nomad-webservice/" />
+        <property name="nomadLoginUrl" value="http://localhost:3000/log_in" />
     </bean>
     
 </beans>
