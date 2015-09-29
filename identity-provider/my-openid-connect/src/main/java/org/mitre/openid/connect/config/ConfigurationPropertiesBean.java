@@ -64,10 +64,6 @@ public class ConfigurationPropertiesBean {
 	
 	private String nomadLoginUrl;
 	
-	private String gitCommit;
-	
-	private String gitBranch;
-	
 	public ConfigurationPropertiesBean() {
 
 	}
@@ -209,19 +205,4 @@ public class ConfigurationPropertiesBean {
 		this.nomadLoginUrl = nomadRootUrl;
 	}
 
-	public String getGitCommit() {
-		return gitCommit;
-	}
-	public void setGitCommit(String gitCommit) {
-		this.gitCommit = gitCommit;
-	}
-
-	public String getGitBranch() {
-		return gitBranch;
-	}
-	public void setGitBranch(String gitBranch) {
-		this.gitBranch = gitBranch;
-	}
-
-	
 }

@@ -35,9 +35,8 @@
 						src="//s3.amazonaws.com/bbd-nomad-assets/alpha/assets/optimumSSL_tl_trans-9c76444d0ec71f0a91165cec1064fec6.gif">
 				</p>
 
-				<c:if test="${not empty config.gitCommit}">
-					<p>OP Version: <a href="https://github.com/sdoxsee/CompanyBSso/tree/${ config.gitCommit }" target="_blank">${ config.gitCommit }</a> </p>
-				</c:if>
+				<!-- <p>Nomad Version: SPRINT_201512</p> -->
+
 			</div>
 		</div>
 	</div>
