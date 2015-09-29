@@ -35,7 +35,7 @@
 						src="//s3.amazonaws.com/bbd-nomad-assets/alpha/assets/optimumSSL_tl_trans-9c76444d0ec71f0a91165cec1064fec6.gif">
 				</p>
 
-				<!-- <p>Nomad Version: SPRINT_201512</p> -->
+				<!-- Git SHA-1: ${buildNumber} -->
 
 			</div>
 		</div>
