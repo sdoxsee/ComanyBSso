@@ -2,6 +2,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="o" tagdir="/WEB-INF/tags"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <div id="push"></div>
 <!-- </div> -->
 <!-- end #wrap -->
@@ -17,8 +18,9 @@
 	<div class="navbar">
 		<div class="navbar-inner">
 			<div class="navbar-text">
+				<jsp:useBean id="now" class="java.util.Date"/>    
 				<div class="copyright">All Rights Reserved. Copyright &copy;
-					Benefits by Design Inc. (2004 - 2015)</div>
+					Benefits by Design Inc. (2004 - <fmt:formatDate value="${now}" pattern="yyyy" />)</div>
 				<section class="footer-links">
 					<ul>
 						<li><a data-target="#privacy-policy-modal"
