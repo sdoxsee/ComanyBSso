@@ -67,8 +67,13 @@ public class ApiAuthenticationManager implements RemoteAuthenticationManager {
 			User user = new User(username, password, authorities);
 			return user;
 		} catch (HttpClientErrorException e) {
-//			if (HttpStatus.BAD_REQUEST == e.getStatusCode()) {}
-			throw new BadCredentialsException("messages.error.user.login", e);
+			if (HttpStatus.BAD_REQUEST == e.getStatusCode()) {
+				throw new BadCredentialsException("messages.error.user.login", e);
+			} else if (HttpStatus.NOT_FOUND == e.getStatusCode()) {
+				throw new AuthenticationServiceException("messages.error.webservice_unavailable_html", e);
+			} else {
+				throw new AuthenticationServiceException("messages.error.webservice_unavailable_html", e);
+			}
 		} catch (HttpServerErrorException e) {
 //			if (HttpStatus.SERVICE_UNAVAILABLE == e.getStatusCode()) {}
 			throw new AuthenticationServiceException("messages.error.webservice_unavailable_html", e);
