@@ -42,7 +42,7 @@ $(document).ready(function() {
 					<div class="login-form">
 						<h2><spring:message code="login.login_with_username_and_password"/></h2>
 						<form
-							action="<%=request.getContextPath()%>/j_spring_security_check"
+							action="${ config.issuer }${ config.issuer.endsWith('/') ? '' : '/' }j_spring_security_check"
 							class="new_user" id="new_user" method="post">
 							<div class="clearfix ui-hide-label" data-role="fieldcontain">
 								<label class="required" for="j_username"><span
@@ -59,6 +59,7 @@ $(document).ready(function() {
 									autocapitalize="off" autocomplete="off" spellcheck="false"
 									id="j_password" name="j_password">
 							</div>
+							<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 							<input class="btn btn-primary" data-disable-with="Please wait..."
 								id="submit" name="submit" type="submit" value="Sign in" /> <a
 								class="btn" href="http://localhost:3000/forgot_password">Forgot
