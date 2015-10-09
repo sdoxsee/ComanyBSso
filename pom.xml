@@ -7,11 +7,11 @@
   <name>company-b-sso</name>
   <properties>
     <java-version>1.8</java-version>
-    <mitreid-connect-version>1.2.0</mitreid-connect-version>
+    <mitreid-connect-version>1.2.1</mitreid-connect-version>
 	<org.aspectj-version>1.6.9</org.aspectj-version>
 	<org.slf4j-version>1.7.7</org.slf4j-version>
 	<org.springframework-version>4.1.7.RELEASE</org.springframework-version>
-	<spring.security.version>3.2.7.RELEASE</spring.security.version>
+	<spring.security.version>3.2.8.RELEASE</spring.security.version>
 	<postgresql.version>9.3-1102-jdbc41</postgresql.version>
   </properties>
 
